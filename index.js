@@ -1,4 +1,4 @@
 const {NodeHog} = require('./nodehog.js');
 
-new NodeHog().start();
+new NodeHog(120000, 600000, 10).start();
 
