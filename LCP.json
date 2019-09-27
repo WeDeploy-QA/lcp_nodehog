@@ -1,5 +1,7 @@
 {
   "id": "nodehog",
   "command": ["npm", "run", "start"],
-  "canAutoscale": true
+  "canAutoscale": true,
+  "memory": 512,
+  "cpu": 1
 }
