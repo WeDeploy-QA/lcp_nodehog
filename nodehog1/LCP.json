@@ -1,5 +1,5 @@
 {
-  "id": "nodehog",
+  "id": "nodehog1",
   "command": ["npm", "run", "start"],
   "cpu": 0.2
 }
