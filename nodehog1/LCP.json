@@ -1,5 +1,17 @@
 {
   "id": "nodehog1",
   "command": ["npm", "run", "start"],
-  "cpu": 0.2
+  "cpu": 0.2,
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  }
 }
