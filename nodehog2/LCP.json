@@ -1,5 +1,8 @@
 {
   "id": "nodehog2",
   "command": ["npm", "run", "start"],
-  "cpu": 0.4
+  "cpu": 0.4,
+  "dependencies": [
+    "nodehog1"
+  ]
 }
